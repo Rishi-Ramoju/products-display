@@ -1,0 +1,15 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-weight: bold;
+}
+
+/* .page-item {
+
+}
+
+.page-link {
+
+} */
