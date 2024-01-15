@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 import styles from './page.module.css'
-import Header from '../../components/Layout/Header'
+import Header from '../../components/layout/header'
 import { Fragment } from 'react'
-import AvailableProducts from '../../components/Products/availableProducts'
+import AvailableProducts from '../../components/products/availableProducts'
 
 export const metadata = {
     title: "Products"

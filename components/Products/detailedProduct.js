@@ -22,22 +22,20 @@ export default function DetailedProduct(){
     },[])
 
     return (
-        <Card>
-            <div className={styles.container}>
-                <Card>
-                    <div className={styles.images}>
-                        <img src={`https://cdn.dummyjson.com/product-images/${product.id}/1.jpg`} alt="product/image" width={600} height={400}/>
-                    </div>
-                </Card>
-                <div className={styles.details}>
-                    <h3>{'Name: '+product.title}</h3>
-                    <p className={styles.description}>{'Description: '+product.description}</p>
-                    <p className={styles.price}>{'Price: $'+product.price}</p>
-                    <p className={styles.discount}>{'Discount: '+product.discountPercentage+'%'}</p>
-                    <p className={styles.rating}>{'Rating: '+product.rating}</p>
-                    <p className={styles.stock}>{'In stock: '+product.stock}</p>
+        <div className={styles.container}>
+            <Card>
+                <div className={styles.images}>
+                    <img src={`https://cdn.dummyjson.com/product-images/${product.id}/1.jpg`} alt="product/image" width={600} height={400}/>
                 </div>
+            </Card>
+            <div className={styles.details}>
+                <h3>{'Name: '+product.title}</h3>
+                <p className={styles.description}>{'Description: '+product.description}</p>
+                <p className={styles.price}>{'Price: $'+product.price}</p>
+                <p className={styles.discount}>{'Discount: '+product.discountPercentage+'%'}</p>
+                <p className={styles.rating}>{'Rating: '+product.rating}</p>
+                <p className={styles.stock}>{'In stock: '+product.stock}</p>
             </div>
-        </Card>
+        </div>
     )
 }

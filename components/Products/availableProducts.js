@@ -2,7 +2,7 @@
 import styles from './availableProducts.module.css'
 import ProductItem from './productItem';
 import Card from '../UI/card';
-import Pagination from '../Layout/pagination';
+import Pagination from '../layout/pagination';
 import { useState, useEffect } from 'react';
 
 export default function AvailableProducts() {
