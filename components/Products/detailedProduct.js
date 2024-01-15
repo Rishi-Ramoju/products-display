@@ -15,7 +15,6 @@ export default function DetailedProduct(){
             const response = await fetch(`https://dummyjson.com${pathname}`)
             const responseData = await response.json()
             imageSrc=[...responseData.images]
-            console.log(responseData)
             setProduct(responseData)
         }
         fetchProductDetails()
